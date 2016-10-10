@@ -18,15 +18,12 @@
       - params: {product}
         - product: objeto do tipo produto
       - retorno: Object
-      
-        ``` js
         {
             status: String
           , message: String
           , code: Number
           , idTransaction: Number
         }
-        ```
 
 ### Atualizar produto;
 
@@ -34,23 +31,19 @@
       - params: {product},
         - product: objeto do tipo produto
       - retorno: Object
-
-        ``` js
         {
             status: String
           , message: String
           , code: Number
           , idTransaction: Number
         }
-        ```
 
-### Busca produto
-  - nome: findProduct
+### Busca produto;
+
+  - name: findProduct
   - params: product.idProduct
     - product.idProduct: atributo de identificação do produto.
   - retorno: Object
-
-    ``` js
     {
         status: String
       , message: String
@@ -60,13 +53,12 @@
     }
     ```
 
-### Remover produto
-  - nome: removeProduct
+### Remover produto;
+
+  - name: removeProduct
   - params: product.idProduct
     - product.idProduct: atributo de identificação do produto.
   - retorno: Object
-
-    ``` js
     {
         status: String
       , message: String
@@ -74,12 +66,11 @@
       , idTransaction: Number
       , object: []
     }
-    ```
 
 
 ## Tipos
 
-### productType
+### productType;
 
   - type: object
   - schema:
