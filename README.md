@@ -18,6 +18,7 @@
       - params: {product}
         - product: objeto do tipo produto
       - retorno: Object
+      
         ``` js
         {
             status: String
@@ -33,6 +34,7 @@
       - params: {product},
         - product: objeto do tipo produto
       - retorno: Object
+
         ``` js
         {
             status: String
@@ -47,6 +49,7 @@
   - params: product.idProduct
     - product.idProduct: atributo de identificação do produto.
   - retorno: Object
+
     ``` js
     {
         status: String
@@ -62,6 +65,7 @@
   - params: product.idProduct
     - product.idProduct: atributo de identificação do produto.
   - retorno: Object
+
     ``` js
     {
         status: String
@@ -111,14 +115,13 @@
 
 ## Todo retorno de função será um objeto
 ###Objeto de retorno
-    ``` js
     {
         status: String
       , message: String
       , code: Number
       , idTransaction: Number
     }
-    ```
+    
 
   - status: Status com mensagens padronizadas tipo: "success", "error" (ainda não definidas)
   - message: Mensagem de retorno
