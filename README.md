@@ -15,7 +15,7 @@
 ### Cadastrar novo produto;
 
       - name: addProduct
-      - params: {product}
+      - params: {product},
         - product: objeto do tipo produto
       - retorno: Object
         {
@@ -51,7 +51,6 @@
       , idTransaction: Number
       , object: []
     }
-    ```
 
 ### Remover produto;
 
@@ -70,7 +69,7 @@
 
 ## Tipos
 
-### productType;
+### productType
 
   - type: object
   - schema:
@@ -99,6 +98,7 @@
        , featuredImage: String
        , galeryImage: {order: number, image: String}
     }
+
     ```
 
 
