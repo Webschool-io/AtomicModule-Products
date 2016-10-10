@@ -73,7 +73,7 @@
   - schema:
 
     ```{
-        idProduct: number
+       idProduct: number
        , datePublish: date
        , name: String
        , status: boolean
