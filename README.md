@@ -18,12 +18,12 @@
       - params: {product}
         - product: objeto do tipo produto
       - retorno: Object
-        {
+        ```{
             status: String
           , message: String
           , code: Number
           , idTransaction: Number
-        }
+        }```
 
 ### Atualizar produto;
 
@@ -31,38 +31,38 @@
       - params: {product},
         - product: objeto do tipo produto
       - retorno: Object
-        {
+        ```{
             status: String
           , message: String
           , code: Number
           , idTransaction: Number
-        }
+        }```
 
 ### Busca produto
   - nome: findProduct
   - params: product.idProduct
     - product.idProduct: atributo de identificação do produto.
   - retorno: Object
-    {
+    ```{
         status: String
       , message: String
       , code: Number
       , idTransaction: Number
       , object: []
-    }
+    }```
 
 ### Remover produto
   - nome: removeProduct
   - params: product.idProduct
     - product.idProduct: atributo de identificação do produto.
   - retorno: Object
-    {
+    ```{
         status: String
       , message: String
       , code: Number
       , idTransaction: Number
       , object: []
-    }
+    }```
 
 
 ## Tipos
@@ -72,7 +72,7 @@
   - type: object
   - schema:
 
-    {
+    ```{
         idProduct: number
        , datePublish: date
        , name: String
@@ -94,19 +94,19 @@
        , note: String
        , featuredImage: String
        , galeryImage: {order: number, image: String}
-    }
+    }```
 
 
 
 
 ## Todo retorno de função será um objeto
 ###Objeto de retorno
-    {
+    ```{
         status: String
       , message: String
       , code: Number
       , idTransaction: Number
-    }
+    }```
 
   - status: Status com mensagens padronizadas tipo: "success", "error" (ainda não definidas)
   - message: Mensagem de retorno
